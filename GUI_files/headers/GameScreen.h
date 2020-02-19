@@ -54,7 +54,7 @@ public:
 		int score;
 	};
 
-	bool CompareEntries(const playerScore& left, const playerScore& right) 
+	static bool CompareEntries(const playerScore& left, const playerScore& right) 
 	{
 		return left.score > right.score;
 	}
