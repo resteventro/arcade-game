@@ -62,7 +62,7 @@ public:
 	std::string gameName;
 	int gameScore;
 	ArcadeTexture* gameScoreTexture;
-	
+	SDL_Renderer* ren;
 private:
 	std::vector<Entity*> entities;
 	std::vector<Entity*> movingEntities;
