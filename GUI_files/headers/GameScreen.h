@@ -45,7 +45,7 @@ public:
 
 	void restartGame();
 
-	void submitScore(SDL_Event* e, SDL_Renderer* ren);
+	void submitScore(SDL_Renderer* ren);
 
 	struct playerScore
 	{
